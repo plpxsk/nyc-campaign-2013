@@ -62,7 +62,7 @@ place individual account holders on map, with circle corresponding to size of co
 10 |  $    10 |  472
 
 #### histogram, zoomed in (notably, excludes a peak at $ 4950, see above)  
-![histogram](output/amount.png)
+![histogram](output/amount.png?raw=true)
 
 ## sources  
 > NYC OPEN DATA: https://nycopendata.socrata.com/  
