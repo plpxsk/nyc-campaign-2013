@@ -5,9 +5,14 @@
 # History files
 .Rhistory
 
-# Example code in package build process
-*-Ex.R
+# emacs temp files
 *~
+\#*
+.#*
+\#*\#
+.DS_Store
+
+
 
 # R data files from past sessions
 .Rdata
