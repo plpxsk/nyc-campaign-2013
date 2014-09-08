@@ -1,7 +1,7 @@
 
 ## EXPLORING NYC 2013 CAMPAIGN DATA
-> A listing of campaign contributions for candidates for City office during the 2013 election cycle
-
+> A listing of campaign contributions for candidates for New York City office during the 2013 election cycle  
+> sources at bottom
 
 ## to do
 place individual account holders on map, with circle corresponding to size of contribution
@@ -64,6 +64,40 @@ place individual account holders on map, with circle corresponding to size of co
 #### histogram
 ![histogram](https://raw.githubusercontent.com/pavopax/nyc-campaign-2013/master/output/amounts.png)
 
+## BY LOCATION  
+#### NOTES  
+There were five (unknown) borough codes. NYC has 5 boroughs, and so to
+determine the mapping, I randomly sampled 50 location observations for
+each borough code, and then visually inspected them.
+
+#### initial borough codes
+[missing]|        K|    M|    Q|    S|    X|    Z| TOTAL
+---|---|---|---|---|---|---|---
+ 125| 2582| 4912| 3770|  813| 1006| 3952 | 17160
+
+#### Borough Code Book
+>see `locations1.R`
+Code|Borough
+---|---
+K|Brooklyn, NY
+M|New York, NY (Manhattan)
+Q|Queens, NY (Queens; includes Bayside, Malba, FLushing, Jamaica, others)
+S|Staten Island, NY (includes "SI, NY")
+X|Bronx, NY (includes a handful of "Pelham Manor, NY")
+Z|Non-NYC. (incldues upstate NY and other states, from CT to TX)
+
+
+
+
+
+
+
+#### 
+
+
+
+
 ## sources  
 > NYC OPEN DATA: https://nycopendata.socrata.com/  
-https://data.cityofnewyork.us/City-Government/2013-Campaign-Contributions/n8p9-7jxp  
+> https://data.cityofnewyork.us/City-Government/2013-Campaign-Contributions/n8p9-7jxp  
+> unedited data downloads in /originals/
