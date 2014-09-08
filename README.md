@@ -77,6 +77,7 @@ each borough code, and then visually inspected them.
 
 #### Borough Code Book
 >see `locations1.R`  
+
 Code|Borough
 ---|---
 K|Brooklyn, NY
