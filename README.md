@@ -76,7 +76,7 @@ each borough code, and then visually inspected them.
  125| 2582| 4912| 3770|  813| 1006| 3952 | 17160
 
 #### Borough Code Book
->see `locations1.R`
+>see `locations1.R`  
 Code|Borough
 ---|---
 K|Brooklyn, NY
