@@ -1,7 +1,7 @@
 ## ============================================================================
 ## WHAT         exploring location data
 ## HOW          
-## NOTES        
+## NOTES        ** WORKING **
 ## AUTHOR       [AMA!] Pawel Paczuski [pavopax.com]  
 ## ============================================================================
 
@@ -11,7 +11,7 @@ source("../header.R")
 ## ============================================================================
 ## (0) FUNCTIONS
 ## ============================================================================
-## somewhat efficient function to sample rows within a borough
+## somewhat "efficient" function to sample rows within a borough
 ## cx = borough code || nr = # of rows to sample
 sampler <- function(cx, nr=10){
     ## get data once

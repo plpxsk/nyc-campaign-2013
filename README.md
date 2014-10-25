@@ -7,6 +7,10 @@
 place individual account holders on map, with circle corresponding to size of contribution
 
 ## number of contributions
+#### histogram
+![bar chart](https://raw.githubusercontent.com/pavopax/nyc-campaign-2013/master/output/counts.png)
+
+
 \#|Name|Frequency
 ---|---|---
 1 |         Weiner | 3311
@@ -43,6 +47,10 @@ place individual account holders on map, with circle corresponding to size of co
 32|        Ignizio |    2
 
 ## summary of contribution amounts ($, negative=refund)
+#### histogram
+![histogram](https://raw.githubusercontent.com/pavopax/nyc-campaign-2013/master/output/amounts.png)
+
+
    Min.| 1st Qu.| Median | Mean | 3rd Qu.| Max. 
 ---|---|---|---|---|---
   -7700 | 50| 200| 665| 500| 8250 
@@ -61,14 +69,13 @@ place individual account holders on map, with circle corresponding to size of co
 9  |  $   175 |  491
 10 |  $    10 |  472
 
-#### histogram
-![histogram](https://raw.githubusercontent.com/pavopax/nyc-campaign-2013/master/output/amounts.png)
 
 ## BY LOCATION  
 #### NOTES  
-There were five (unknown) borough codes. NYC has 5 boroughs, and so to
-determine the mapping, I randomly sampled 50 location observations for
-each borough code, and then visually inspected them.
+There were six (unknown, but guessable) borough codes. NYC has 5
+boroughs, and so to determine the mapping, I randomly sampled 50
+location observations for each borough code, and then visually
+inspected them. The final code makes logical sense too.
 
 #### initial borough codes
 [missing]|        K|    M|    Q|    S|    X|    Z| TOTAL
