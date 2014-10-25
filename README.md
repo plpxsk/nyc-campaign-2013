@@ -3,7 +3,7 @@
 > A listing of campaign contributions for candidates for New York City office during the 2013 election cycle  
 > sources at bottom
 
-## to do
+## to do (working: locations1.R)
 place individual account holders on map, with circle corresponding to size of contribution
 
 ## number of contributions
