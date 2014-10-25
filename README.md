@@ -6,8 +6,8 @@
 ## to do (working: locations1.R)
 place individual account holders on map, with circle corresponding to size of contribution
 
-## number of contributions
-#### histogram
+## number of contributions  
+> `programs/explore1/explore1.R`  
 ![bar chart](https://raw.githubusercontent.com/pavopax/nyc-campaign-2013/master/output/counts.png)
 
 
@@ -47,7 +47,6 @@ place individual account holders on map, with circle corresponding to size of co
 32|        Ignizio |    2
 
 ## summary of contribution amounts ($, negative=refund)
-#### histogram
 ![histogram](https://raw.githubusercontent.com/pavopax/nyc-campaign-2013/master/output/amounts.png)
 
 
@@ -83,7 +82,7 @@ inspected them. The final code makes logical sense too.
  125| 2582| 4912| 3770|  813| 1006| 3952 | 17160
 
 #### Borough Code Book
->see `locations1.R`  
+> `programs/locations/locations1.R`  
 
 Code|Borough
 ---|---
