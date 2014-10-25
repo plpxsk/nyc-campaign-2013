@@ -8,6 +8,7 @@ place individual account holders on map, with circle corresponding to size of co
 
 ## number of contributions  
 > `programs/explore1/explore1.R`  
+
 ![bar chart](https://raw.githubusercontent.com/pavopax/nyc-campaign-2013/master/output/counts.png)
 
 
